@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -19,10 +19,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TDDWorkshop\TDDWorkshop.csproj" />
+    <ProjectReference Include="..\UnitTestExamples\ExamplesForUnitTesting.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assignments\Assignment3\Solution\Code\" />
+    <Folder Include="TDDAssignments\Assignment3\Solution\Code\" />
   </ItemGroup>
 
 </Project>
