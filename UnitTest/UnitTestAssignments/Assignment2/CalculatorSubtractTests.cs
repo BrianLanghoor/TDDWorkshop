@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using ExamplesForUnitTesting;
+using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTest.UnitTestAssignments.Assignment2
