@@ -1,0 +1,57 @@
+﻿## Assignment 3
+
+- Make it so that if I specify another animal before my response text that the asci art is changed
+    - Choose your animal or other asci art and make it work
+    - The default animal response should be a cow. 
+
+Example:
+Input:
+Hello
+
+Result:
+  _____
+< Hello >
+  -----
+         \   ^__^ 
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     ||
+
+Input:
+Penguin Hello
+
+Result:
+  _____
+< Hello >
+  -----
+   \    .--.
+    \  |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+
+Or if you want to go your way, try a unicorn:
+      \
+       \      ,,))))))));,
+        \  __)))))))))))))),
+\|/       -\(((((''''((((((((.
+-*-==//////((''  .     `)))))),
+/|\      ))| o    ;-.    '(((((                                  ,(,
+         ( `|    /  )    ;))))'                               ,_))^;(~
+            |   |   |   ,))((((_     _____------~~~-.        %,;(;(>';'~
+            o_);   ;    )))(((` ~---~  `::           \      %%~~)(v;(`('~
+                  ;    ''''````         `:       `:::|\,__,%%    );`'; ~
+                 |   _                )     /      `:|`----'     `-'
+           ______/\/~    |                 /        /
+         /~;;.____/;;'  /          ___--,-(   `;;;/
+        / //  _;______;'------~~~~~    /;;/\    /
+       //  | |                        / ;   \;;,\
+      (<_  | ;                      /',/-----'  _>
+       \_| ||_                     //~;~~~~~~~~~
+           `\_|                   (,~~
+                                   \~\
+                                    ~~

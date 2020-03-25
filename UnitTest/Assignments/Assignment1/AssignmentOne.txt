@@ -1,0 +1,16 @@
+﻿## Assignment 1
+
+- Without any input, make a cow say `Hello, World!`
+- When you tell the cow your name, make it say your name
+
+
+Example cow:
+
+  ____________
+< Hello World! >
+  ------------
+         \   ^__^ 
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     ||

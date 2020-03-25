@@ -1,0 +1,28 @@
+﻿## Assignment 2
+
+- Make it so that the bottom and top lines of the balloon are dynamic compared to the input
+- The screen can now only be 40 characters wide
+  - Make the cow say: `This is the line I want your cow to say and it better not be wider than 40 characters`
+
+  
+Example cows:
+  ________________________________________
+/ ffffffffffffffffffffffffffffffffffffffff \
+\ ffffffffffffffffffffffffffffffffffffffff /
+  ----------------------------------------
+         \   ^__^ 
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     ||
+
+  ________________________________________
+/ ffffffffffffffffffffffffffffffffffffffff \
+| ffffffffffffffffffffffffffffffffffffffff |
+\ ffffffffffffffffffffffffffffffffffffffff /
+  ----------------------------------------
+         \   ^__^ 
+          \  (oo)\_______
+             (__)\       )\/\
+                 ||----w |
+                 ||     ||
