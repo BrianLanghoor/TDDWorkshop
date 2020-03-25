@@ -31,19 +31,19 @@ namespace UnitTest.UnitTestAssignments.Assignment2
         }
 
         [TestMethod]
-        public void WhenSubtractingNineByThirtheenTheResultShouldBeMinusFour()
+        public void WhenSubtractingNineByThirteenTheResultShouldBeMinusFour()
         {
             _calculator.Subtract(9, 13).Should().Be(-4);
         }
 
         [TestMethod]
-        public void WhenSubtractingMinusNineByThirtheenTheResultShouldBeMinusTwentyTwo()
+        public void WhenSubtractingMinusNineByThirteenTheResultShouldBeMinusTwentyTwo()
         {
             _calculator.Subtract(-9, 13).Should().Be(-22);
         }
 
         [TestMethod]
-        public void WhenSubtractingNineByMinusThirtheenTheResultShouldBeMinusTwentyTwo()
+        public void WhenSubtractingNineByMinusThirteenTheResultShouldBeMinusTwentyTwo()
         {
             _calculator.Subtract(9, -13).Should().Be(22);
         }
