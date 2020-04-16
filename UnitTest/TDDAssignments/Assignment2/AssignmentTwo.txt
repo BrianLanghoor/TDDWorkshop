@@ -1,28 +1,33 @@
 ﻿## Assignment 2
 
+- The requirements from assignment one still apply
 - Make it so that the bottom and top lines of the balloon are dynamic compared to the input
-- The screen can now only be 40 characters wide
-  - Make the cow say: `This is the line I want your cow to say and it better not be wider than 40 characters`
-
-  
-Example cows:
-  ________________________________________
-/ ffffffffffffffffffffffffffffffffffffffff \
-\ ffffffffffffffffffffffffffffffffffffffff /
-  ----------------------------------------
-         \   ^__^ 
-          \  (oo)\_______
+- The text inside the textbaloon can now only be maximum 40 characters wide
+  - When the cow says: `This is the line I want your cow to say and it better not be wider than 40 characters`
+  - Result should be:
+  __________________________________________
+ / This is the line I want your cow to say  \
+ | and it better not be wider than 40 chara |
+ \ cters                                    /
+  ------------------------------------------
+         \   ^__^
+          \  (oo)\_____
              (__)\       )\/\
                  ||----w |
                  ||     ||
 
+- When the text is only one line the textballoon should look like:
+  ______________
+ < Hello World! >
+  --------------
+- When the text is two lines the textballoon should look like:
+  ________________________________________
+/ ffffffffffffffffffffffffffffffffffffffff \
+\ fffffffffffffffffff                      /
+  ----------------------------------------
+- When the text is three or more lines the textballoon should look like:
   ________________________________________
 / ffffffffffffffffffffffffffffffffffffffff \
 | ffffffffffffffffffffffffffffffffffffffff |
-\ ffffffffffffffffffffffffffffffffffffffff /
+\ fffffffffffffffffffffff                  /
   ----------------------------------------
-         \   ^__^ 
-          \  (oo)\_______
-             (__)\       )\/\
-                 ||----w |
-                 ||     ||
