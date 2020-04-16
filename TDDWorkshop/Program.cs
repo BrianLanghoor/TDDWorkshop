@@ -7,7 +7,19 @@ namespace TDDWorkshop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            var input = "";
+            var cowSay = new CowSay();
+            while (true)
+            {
+                var cow = cowSay.CreateCow(input);
+
+                foreach (var line in cow.Result)
+                {
+                    Console.WriteLine(line);
+                }
+
+                input = Console.ReadLine();
+            }
         }
     }
 }

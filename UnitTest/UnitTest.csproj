@@ -22,8 +22,4 @@
     <ProjectReference Include="..\UnitTestExamples\ExamplesForUnitTesting.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="TDDAssignments\Assignment3\Solution\Code\" />
-  </ItemGroup>
-
 </Project>

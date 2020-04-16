@@ -81,13 +81,11 @@
 //            _cowSay.CreateCow("Penguin Hello World!").Result[7].Should().Be(@"     (|     | )");
 //        }
 
-
 //        [TestMethod]
 //        public void WhenCreatingThePenguinTheBellyShouldMatch()
 //        {
 //            _cowSay.CreateCow("Penguin Hello World!").Result[8].Should().Be(@"    /'\_   _/`\");
 //        }
-
 
 //        [TestMethod]
 //        public void WhenCreatingThePenguinTheLegsShouldMatch()
